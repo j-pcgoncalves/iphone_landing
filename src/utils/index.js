@@ -1,9 +1,9 @@
 import hmv from "/assets/videos/hero.mp4";
 import smallhmv from "/assets/videos/smallHero.mp4";
 import highlightFirstmv from "/assets/videos/highlight-first.mp4";
-import highlightSectmv from "/assets/videos/highlight-sec.mp4";
-import highlightThirdmv from "/assets/videos/highlight-third.mp4";
-import highlightFourthmv from "/assets/videos/highlight-fourth.mp4";
+import highlightSectmv from "/assets/videos/hightlight-sec.mp4";
+import highlightThirdmv from "/assets/videos/hightlight-third.mp4";
+import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 
 import apple from "/assets/images/apple.svg";
 import search from "/assets/images/search.svg";
