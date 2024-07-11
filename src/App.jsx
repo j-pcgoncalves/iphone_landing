@@ -1,11 +1,12 @@
+import Navbar from "./components/Navbar";
+
 import * as Sentry from "@sentry/react";
 
 function App() {
-
   return (
-    <>
-      <h1>TESTE</h1>
-    </>
+    <main className="bg-black">
+      <Navbar />
+    </main>
   )
 }
 
