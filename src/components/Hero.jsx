@@ -1,6 +1,8 @@
 import { heroVideo, smalHeroVideo } from "../utils";
 
 import { useEffect, useState } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 const Hero = () => {
     const [videoSrc, setVideoSrc] = useState(window.innerWidth < 760 ? smalHeroVideo : heroVideo);
@@ -20,6 +22,11 @@ const Hero = () => {
             window.removeEventListener("resize", handleVideoSrcSet);
         }
     }, []);
+
+    useGSAP(() => {
+        gsap.to("#hero", { opacity: 1, delay: 2 });
+        gsap.to("#cta", { opacity: 1, y: -50, delay: 2 });
+    })
 
     return (
         <section className="w-full nav-height bg-black relative">
