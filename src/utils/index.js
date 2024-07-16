@@ -14,6 +14,8 @@ import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
+import yellow from "/assets/images/yellow.jpg";
+
 export const heroVideo = hmv;
 export const smalHeroVideo = smallhmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -29,3 +31,5 @@ export const rightImg = right;
 export const replayImg = replay;
 export const playImg = play;
 export const pausetImg = pause;
+
+export const yellowImg = yellow;
