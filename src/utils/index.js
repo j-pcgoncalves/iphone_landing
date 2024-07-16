@@ -15,6 +15,9 @@ import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
 import yellow from "/assets/images/yellow.jpg";
+import blue from "/assets/images/blue.jpg";
+import white from "/assets/images/white.jpg";
+import black from "/assets/images/black.jpg";
 
 export const heroVideo = hmv;
 export const smalHeroVideo = smallhmv;
@@ -33,3 +36,6 @@ export const playImg = play;
 export const pausetImg = pause;
 
 export const yellowImg = yellow;
+export const blueImg = blue;
+export const whiteImg = white;
+export const blackImg = black;
