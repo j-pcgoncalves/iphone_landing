@@ -2,7 +2,7 @@
   "name": "iphone_landing",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://j-pcgoncalves.github.io/iphone_landing",
+  "homepage": "https://j-pcgoncalves.github.io/iphone_landing/",
   "type": "module",
   "scripts": {
     "dev": "vite",

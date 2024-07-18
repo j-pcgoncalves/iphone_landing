@@ -8,7 +8,7 @@ export default defineConfig({
     org: "personal-9wu",
     project: "iphone-landing"
   })],
-  base: "/iphone_landing/",
+  base: "https://j-pcgoncalves.github.io/iphone_landing/",
   build: {
     sourcemap: true
   }
